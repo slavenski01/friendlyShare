@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "FriendlyShare"
 include ':app'
+include ':ShareModule'
