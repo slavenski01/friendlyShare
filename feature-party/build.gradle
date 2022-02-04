@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -39,4 +40,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation project(path: ':module-injector')
+    implementation project(path: ':core-utils')
+
+    //dagger
+    implementation ('com.google.dagger:dagger:2.38.1')
+    kapt ('com.google.dagger:dagger-compiler:2.38.1')
 }

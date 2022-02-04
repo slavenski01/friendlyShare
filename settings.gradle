@@ -10,3 +10,4 @@ rootProject.name = "FriendlyShare"
 include ':app'
 include ':module-injector'
 include ':feature-party'
+include ':core-utils'
