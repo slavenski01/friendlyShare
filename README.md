@@ -6,3 +6,5 @@
 3) попробовать CI
 4) использовать FireBase
 5) независимый от платформы слой презентера
+
+Версия котлин: org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31
